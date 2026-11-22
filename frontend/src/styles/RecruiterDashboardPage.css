@@ -1,0 +1,19 @@
+/* RecruiterDashboardPage.css */
+.recruiter-grid-row-1 {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.recruiter-grid-row-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 24px;
+}
+
+.recruiter-dashboard-error {
+  margin: 0 0 16px;
+  color: #B91C1C;
+  font-size: 13px;
+}

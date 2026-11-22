@@ -1,0 +1,132 @@
+/* RecruiterHeader.css */
+.recruiter-header-root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.recruiter-header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.recruiter-header-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0F172A;
+  letter-spacing: -0.02em;
+}
+
+.recruiter-company-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-light, #E2E8F0);
+  border-radius: 10px;
+  padding: 6px 12px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.recruiter-company-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background-color: var(--primary-blue, #2563EB);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recruiter-company-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #0F172A;
+}
+
+.recruiter-company-jobs-count {
+  font-size: 11px;
+  color: #64748B;
+}
+
+.recruiter-header-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.recruiter-search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.recruiter-search-input {
+  height: 38px;
+  width: 220px;
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-light, #E2E8F0);
+  border-radius: 8px;
+  padding: 0 40px 0 36px;
+  font-size: 13px;
+  color: #0F172A;
+}
+
+.recruiter-search-shortcut {
+  position: absolute;
+  right: 10px;
+  font-size: 11px;
+  color: #94A3B8;
+  background-color: #F1F5F9;
+  padding: 2px 5px;
+  border-radius: 4px;
+  border: 1px solid var(--border-light, #E2E8F0);
+}
+
+.recruiter-icon-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-light, #E2E8F0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748B;
+  cursor: pointer;
+}
+
+.recruiter-icon-btn:hover {
+  background-color: #F8FAFC;
+}
+
+.recruiter-user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.recruiter-user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--primary-blue, #2563EB);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.recruiter-user-name {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #0F172A;
+}

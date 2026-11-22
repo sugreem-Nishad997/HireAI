@@ -1,0 +1,29 @@
+/* InfoAlert.css */
+.info-alert-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background-color: var(--primary-blue-light, #EFF6FF);
+  border-radius: 10px;
+  border: 1px solid var(--primary-blue-border, #DBEAFE);
+  color: #1E40AF;
+  font-size: 13.5px;
+  font-weight: 500;
+}
+
+.info-alert-icon-box {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--primary-blue, #2563EB);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  flex-shrink: 0;
+}
+
+.info-alert-message {
+  line-height: 1.4;
+}

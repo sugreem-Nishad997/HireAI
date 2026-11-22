@@ -1,0 +1,35 @@
+/* WelcomeHeader.css */
+.welcome-header-container {
+  margin-bottom: 24px;
+}
+
+.welcome-header-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 4px;
+}
+
+.welcome-header-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0F172A;
+  letter-spacing: -0.02em;
+}
+
+.welcome-header-role {
+  padding: 5px 11px;
+  border: 1px solid #DBEAFE;
+  border-radius: 999px;
+  background-color: #EFF6FF;
+  color: #1D4ED8;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.welcome-header-subtitle {
+  font-size: 14px;
+  color: #64748B;
+}

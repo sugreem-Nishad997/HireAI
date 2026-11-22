@@ -1,0 +1,85 @@
+/* SourcesBreakdown.css */
+.sources-card {
+  background-color: #FFFFFF;
+  border-radius: 14px;
+  border: 1px solid var(--border-light, #E2E8F0);
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+
+.sources-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sources-header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sources-icon-box {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background-color: var(--primary-blue-light, #EFF6FF);
+  color: var(--primary-blue, #2563EB);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sources-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0F172A;
+}
+
+.sources-more-btn {
+  color: #94A3B8;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.sources-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sources-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sources-item-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12.5px;
+}
+
+.sources-name {
+  color: #475569;
+  font-weight: 500;
+}
+
+.sources-percentage {
+  color: #0F172A;
+  font-weight: 700;
+}
+
+.sources-track {
+  height: 6px;
+  background-color: #F1F5F9;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.sources-fill {
+  height: 100%;
+  border-radius: 9999px;
+}

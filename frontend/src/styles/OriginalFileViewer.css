@@ -1,0 +1,83 @@
+/* OriginalFileViewer.css */
+.original-file-card {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  border: 1px solid var(--border-light, #E2E8F0);
+  padding: 32px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 380px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+
+.original-file-icon-box {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  background-color: #FEE2E2;
+  color: #EF4444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.original-file-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 6px;
+}
+
+.original-file-meta {
+  font-size: 13px;
+  color: #64748B;
+  margin-bottom: 24px;
+}
+
+.original-file-btn-group {
+  display: flex;
+  gap: 12px;
+}
+
+.original-file-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: var(--primary-blue, #2563EB);
+  color: #FFFFFF;
+  border-radius: 8px;
+  font-size: 13.5px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.original-file-download-btn:hover {
+  background-color: var(--primary-blue-hover, #1D4ED8);
+}
+
+.original-file-preview-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  background-color: #FFFFFF;
+  color: #475569;
+  border: 1px solid #CBD5E1;
+  border-radius: 8px;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.original-file-preview-btn:hover {
+  background-color: #F8FAFC;
+}

@@ -1,0 +1,67 @@
+/* ProcessingLogViewer.css */
+.processing-log-card {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  border: 1px solid var(--border-light, #E2E8F0);
+  padding: 28px;
+  margin-top: 24px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+
+.processing-log-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.processing-log-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0F172A;
+}
+
+.processing-log-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.processing-log-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-subtle, #F1F5F9);
+}
+
+.processing-log-item:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.processing-log-check {
+  color: #16A34A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.processing-log-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.processing-log-step {
+  font-size: 13.5px;
+  fontWeight: 600;
+  color: #0F172A;
+}
+
+.processing-log-time {
+  font-size: 12px;
+  color: #94A3B8;
+}

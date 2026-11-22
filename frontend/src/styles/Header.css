@@ -1,0 +1,126 @@
+/* Header.css */
+.header-container {
+  height: 64px;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid var(--border-light, #E2E8F0);
+  padding: 0 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  gap: 16px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-menu-toggle {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #475569;
+  background-color: #F8FAFC;
+  border: 1px solid var(--border-light, #E2E8F0);
+  transition: background-color 0.15s ease;
+  cursor: pointer;
+}
+
+.header-menu-toggle:hover {
+  background-color: #F1F5F9;
+}
+
+.header-portal-switcher {
+  display: flex;
+  align-items: center;
+  background-color: #F1F5F9;
+  border-radius: 9999px;
+  padding: 4px;
+  gap: 2px;
+}
+
+.header-portal-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #64748B;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.header-portal-pill.active {
+  color: #FFFFFF;
+  background-color: var(--primary-blue, #2563EB);
+  box-shadow: 0 1px 3px rgba(37, 99, 235, 0.3);
+}
+
+.header-user-badge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: background-color 0.15s ease;
+}
+
+.header-user-badge:hover {
+  background-color: #F8FAFC;
+}
+
+.header-user-avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #1D4ED8;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.header-user-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.header-user-name {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #0F172A;
+}
+
+.header-user-role {
+  font-size: 11.5px;
+  font-weight: 500;
+  color: #64748B;
+}
+
+@media (max-width: 768px) {
+  .header-menu-toggle {
+    display: flex;
+  }
+}
+
+@media (min-width: 769px) {
+  .header-menu-toggle {
+    display: none;
+  }
+}

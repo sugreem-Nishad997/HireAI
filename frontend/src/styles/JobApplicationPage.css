@@ -1,0 +1,254 @@
+.job-application-page {
+  max-width: 860px;
+  margin: 0 auto;
+  color: #0F172A;
+}
+
+.job-application-loading {
+  display: flex;
+  justify-content: center;
+  padding: 64px 20px;
+}
+
+.job-application-back-link {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: #2563EB;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.job-application-back-link:hover {
+  text-decoration: underline;
+}
+
+.job-application-header {
+  margin-bottom: 28px;
+}
+
+.job-application-eyebrow {
+  color: #2563EB;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.job-application-header h1,
+.job-application-success h1 {
+  margin: 8px 0 12px;
+  color: #0F172A;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.job-application-description,
+.job-application-section-heading p {
+  color: #64748B;
+  font-size: 14px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.job-application-form {
+  padding: 28px;
+  border: 1px solid #E2E8F0;
+  border-radius: 14px;
+  background: #FFFFFF;
+}
+
+.job-application-section-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.job-application-section-heading h2 {
+  margin: 0 0 5px;
+  font-size: 17px;
+}
+
+.job-application-section-heading p {
+  margin: 0;
+}
+
+.job-application-resume-list {
+  display: grid;
+  gap: 10px;
+}
+
+.job-application-resume-option {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid #E2E8F0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.job-application-resume-option.selected {
+  border-color: #2563EB;
+  background: #EFF6FF;
+}
+
+.job-application-resume-option input {
+  width: 16px;
+  height: 16px;
+  accent-color: #2563EB;
+}
+
+.job-application-resume-details {
+  display: grid;
+  flex: 1;
+  gap: 5px;
+  min-width: 0;
+}
+
+.job-application-resume-details strong {
+  overflow: hidden;
+  color: #0F172A;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.job-application-resume-details span,
+.job-application-resume-status {
+  color: #64748B;
+  font-size: 12px;
+}
+
+.job-application-resume-status {
+  color: #15803D;
+  font-weight: 600;
+}
+
+.job-application-empty-resumes,
+.job-application-notice {
+  padding: 14px 16px;
+  border-radius: 8px;
+  background: #F8FAFC;
+  color: #64748B;
+  font-size: 13px;
+}
+
+.job-application-notice {
+  margin: 0 0 14px;
+}
+
+.job-application-upload {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.job-application-file-input {
+  display: none;
+}
+
+.job-application-upload-button,
+.job-application-cancel,
+.job-application-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 42px;
+  padding: 0 16px;
+  border: 1px solid #CBD5E1;
+  border-radius: 8px;
+  background: #FFFFFF;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.job-application-upload-button:disabled,
+.job-application-submit:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.job-application-upload > span {
+  color: #94A3B8;
+  font-size: 12px;
+}
+
+.job-application-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid #E2E8F0;
+}
+
+.job-application-submit {
+  border-color: #2563EB;
+  background: #2563EB;
+  color: #FFFFFF;
+}
+
+.job-application-submit:hover:not(:disabled) {
+  background: #1D4ED8;
+}
+
+.job-application-error {
+  margin: 16px 0 0;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #FEF2F2;
+  color: #B42318;
+  font-size: 13px;
+}
+
+.job-application-success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 24px;
+  border: 1px solid #E2E8F0;
+  border-radius: 14px;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.job-application-success p {
+  margin: 0 0 24px;
+  color: #64748B;
+  font-size: 14px;
+}
+
+@media (max-width: 640px) {
+  .job-application-form {
+    padding: 20px 16px;
+  }
+
+  .job-application-header h1 {
+    font-size: 23px;
+  }
+
+  .job-application-resume-option {
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .job-application-upload {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .job-application-actions {
+    flex-direction: column-reverse;
+  }
+
+  .job-application-actions button {
+    width: 100%;
+  }
+}

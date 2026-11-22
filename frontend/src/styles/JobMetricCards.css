@@ -1,0 +1,55 @@
+/* JobMetricCards.css */
+.job-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 28px 0;
+}
+
+.job-metric-card {
+  background-color: #FFFFFF;
+  border-radius: 14px;
+  border: 1px solid var(--border-light, #E2E8F0);
+  padding: 20px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.job-metric-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job-metric-label {
+  font-size: 13px;
+  color: #64748B;
+  font-weight: 500;
+}
+
+.job-metric-icon-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--primary-blue-light, #EFF6FF);
+  color: var(--primary-blue, #2563EB);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.job-metric-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0F172A;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.job-metric-change {
+  font-size: 12px;
+  color: #64748B;
+}

@@ -1,0 +1,246 @@
+/* SignInHero.css */
+.signin-hero-container {
+  flex: 1;
+  background-color: #F0F6FF;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  border-right: 1px solid var(--border-light, #E2E8F0);
+}
+
+.signin-hero-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.signin-hero-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.signin-hero-brand-name {
+  font-size: 20px;
+  font-weight: 800;
+  color: #0F172A;
+  letter-spacing: -0.02em;
+}
+
+.signin-hero-text-block {
+  max-width: 440px;
+  margin-top: 32px;
+  z-index: 10;
+}
+
+.signin-hero-headline {
+  font-size: 34px;
+  font-weight: 800;
+  color: #0F172A;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  margin-bottom: 16px;
+}
+
+.signin-hero-subtext {
+  font-size: 15px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.signin-hero-graphic-wrap {
+  position: relative;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 0;
+}
+
+.signin-hero-recruiter-graphic {
+  width: min(100%, 460px);
+  height: 340px;
+  margin: 24px auto;
+  overflow: hidden;
+  border: 1px solid rgba(37, 99, 235, 0.08);
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 20px 35px rgba(37, 99, 235, 0.12);
+}
+
+.signin-hero-recruiter-graphic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.signin-hero-radial-glow {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(191, 219, 254, 0.6) 0%, rgba(240, 246, 255, 0) 70%);
+}
+
+.signin-hero-resume-card {
+  width: 210px;
+  height: 280px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 20px 25px -5px rgba(59, 130, 246, 0.1), 0 8px 10px -6px rgba(59, 130, 246, 0.1);
+  border: 1px solid #DBEAFE;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transform: rotate(-4deg);
+  z-index: 2;
+}
+
+.signin-hero-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.signin-hero-avatar-box {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #EFF6FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3B82F6;
+}
+
+.signin-hero-lines-header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.signin-hero-line-primary {
+  height: 8px;
+  width: 70%;
+  background-color: #CBD5E1;
+  border-radius: 4px;
+}
+
+.signin-hero-line-secondary {
+  height: 6px;
+  width: 45%;
+  background-color: #E2E8F0;
+  border-radius: 4px;
+}
+
+.signin-hero-lines-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.signin-hero-line-full {
+  height: 6px;
+  width: 100%;
+  background-color: #E2E8F0;
+  border-radius: 4px;
+}
+
+.signin-hero-line-90 {
+  height: 6px;
+  width: 90%;
+  background-color: #F1F5F9;
+  border-radius: 4px;
+}
+
+.signin-hero-line-75 {
+  height: 6px;
+  width: 75%;
+  background-color: #F1F5F9;
+  border-radius: 4px;
+}
+
+.signin-hero-lines-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.signin-hero-line-85 {
+  height: 6px;
+  width: 85%;
+  background-color: #E2E8F0;
+  border-radius: 4px;
+}
+
+.signin-hero-line-60 {
+  height: 6px;
+  width: 60%;
+  background-color: #F1F5F9;
+  border-radius: 4px;
+}
+
+.signin-hero-upload-cloud {
+  position: absolute;
+  bottom: 40px;
+  left: 38%;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  box-shadow: 0 8px 16px rgba(37, 99, 235, 0.35);
+  z-index: 10;
+}
+
+.signin-hero-badge {
+  position: absolute;
+  background-color: #FFFFFF;
+  padding: 7px 14px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+  border: 1px solid var(--border-light, #E2E8F0);
+  font-size: 12px;
+  font-weight: 600;
+  color: #1E293B;
+  z-index: 5;
+}
+
+.badge-ai-parsing {
+  top: 40px;
+  right: 25px;
+}
+
+.badge-skills {
+  top: 105px;
+  right: 45px;
+}
+
+.badge-experience {
+  top: 170px;
+  right: 20px;
+}
+
+.badge-education {
+  top: 235px;
+  right: 35px;
+}

@@ -1,0 +1,118 @@
+/* ProfileOverview.css */
+.profile-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.profile-overview-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-overview-card {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  border: 1px solid var(--border-light, #E2E8F0);
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+
+.profile-overview-card-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 12px;
+}
+
+.profile-overview-summary {
+  font-size: 13.5px;
+  color: #64748B;
+}
+
+.profile-overview-skills-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.profile-overview-skill-pill {
+  padding: 5px 14px;
+  border-radius: 6px;
+  background-color: var(--primary-blue-light, #EFF6FF);
+  color: var(--primary-blue, #2563EB);
+  font-size: 12.5px;
+  font-weight: 600;
+  border: 1px solid var(--primary-blue-border, #DBEAFE);
+}
+
+.profile-overview-card-header-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.profile-overview-card-header-icon h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0F172A;
+}
+
+.profile-overview-edu-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.profile-overview-edu-degree {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0F172A;
+}
+
+.profile-overview-edu-inst {
+  font-size: 13px;
+  color: #64748B;
+}
+
+.profile-overview-edu-year {
+  font-size: 12.5px;
+  color: #94A3B8;
+}
+
+.profile-overview-project-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.profile-overview-project-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0F172A;
+}
+
+.profile-overview-project-desc {
+  font-size: 13px;
+  color: #475569;
+}
+
+.profile-overview-project-techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.profile-overview-project-pill {
+  padding: 3px 10px;
+  border-radius: 6px;
+  background-color: var(--primary-blue-light, #EFF6FF);
+  color: var(--primary-blue, #2563EB);
+  font-size: 11.5px;
+  font-weight: 600;
+  border: 1px solid var(--primary-blue-border, #DBEAFE);
+}

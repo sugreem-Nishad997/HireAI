@@ -1,0 +1,105 @@
+/* RecentResumesTable.css */
+.recent-resumes-card {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  border: 1px solid var(--border-light, #E2E8F0);
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+
+.recent-resumes-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.recent-resumes-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0F172A;
+}
+
+.recent-resumes-view-all {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary-blue, #2563EB);
+  text-decoration: none;
+}
+
+.recent-resumes-view-all:hover {
+  text-decoration: underline;
+}
+
+.recent-resumes-table-wrapper {
+  overflow-x: auto;
+}
+
+.recent-resumes-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.recent-resumes-thead-tr {
+  border-bottom: 1px solid var(--border-light, #E2E8F0);
+}
+
+.recent-resumes-th {
+  padding: 12px 16px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #64748B;
+}
+
+.recent-resumes-th-action {
+  text-align: right;
+}
+
+.recent-resumes-tr {
+  border-bottom: 1px solid var(--border-subtle, #F1F5F9);
+  transition: background-color 0.15s ease;
+}
+
+.recent-resumes-tr:hover {
+  background-color: #F8FAFC;
+}
+
+.recent-resumes-td-name {
+  padding: 16px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #0F172A;
+}
+
+.recent-resumes-td-date {
+  padding: 16px;
+  font-size: 13px;
+  color: #64748B;
+}
+
+.recent-resumes-td-status {
+  padding: 16px;
+}
+
+.recent-resumes-td-action {
+  padding: 16px;
+  text-align: right;
+}
+
+.recent-resumes-view-btn {
+  padding: 5px 14px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--primary-blue, #2563EB);
+  background-color: var(--primary-blue-light, #EFF6FF);
+  border: 1px solid var(--primary-blue-border, #DBEAFE);
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.recent-resumes-view-btn:hover {
+  background-color: var(--primary-blue, #2563EB);
+  color: #FFFFFF;
+}

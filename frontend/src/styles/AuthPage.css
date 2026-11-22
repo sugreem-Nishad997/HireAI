@@ -1,0 +1,19 @@
+/* AuthPage.css */
+.auth-page-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+}
+
+.auth-page-content {
+  flex: 1;
+  min-height: 100vh;
+  display: flex;
+}
+
+@media (max-width: 860px) {
+  .auth-page-content {
+    flex-direction: column;
+  }
+}

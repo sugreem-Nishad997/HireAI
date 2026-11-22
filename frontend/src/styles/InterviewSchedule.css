@@ -1,0 +1,126 @@
+/* InterviewSchedule.css */
+.int-schedule-card {
+  background-color: #FFFFFF;
+  border-radius: 14px;
+  border: 1px solid var(--border-light, #E2E8F0);
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+
+.int-schedule-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.int-schedule-header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.int-schedule-icon-box {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background-color: var(--primary-blue-light, #EFF6FF);
+  color: var(--primary-blue, #2563EB);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.int-schedule-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0F172A;
+}
+
+.int-schedule-more-btn {
+  color: #94A3B8;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.int-schedule-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.int-schedule-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.int-schedule-time {
+  font-size: 12px;
+  font-weight: 600;
+  color: #94A3B8;
+  width: 38px;
+  flex-shrink: 0;
+}
+
+.int-schedule-item-card {
+  flex: 1;
+  border-radius: 10px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.int-schedule-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.int-schedule-job-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #0F172A;
+}
+
+.int-schedule-candidate-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.int-schedule-candidate-avatar {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  font-size: 9px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.int-schedule-candidate-name {
+  font-size: 12px;
+  color: #64748B;
+}
+
+.int-schedule-join-btn {
+  background-color: #FFFFFF;
+  color: #0F172A;
+  padding: 5px 14px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid var(--border-light, #E2E8F0);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.int-schedule-join-btn:hover {
+  background-color: #F8FAFC;
+}

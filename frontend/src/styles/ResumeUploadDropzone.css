@@ -1,0 +1,131 @@
+/* ResumeUploadDropzone.css */
+.resume-upload-wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.resume-upload-header {
+  margin-bottom: 28px;
+}
+
+.resume-upload-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0F172A;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+.resume-upload-subtitle {
+  font-size: 14px;
+  color: #64748B;
+}
+
+.resume-dropzone-box {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  border: 2px dashed #CBD5E1;
+  padding: 64px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.2s ease;
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.resume-dropzone-box.dragging {
+  border-color: var(--primary-blue, #2563EB);
+  background-color: #F8FAFC;
+}
+
+.resume-upload-progress-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px 0;
+}
+
+.resume-upload-icon-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+}
+
+.resume-upload-filename {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0F172A;
+  margin-bottom: 4px;
+}
+
+.resume-upload-step-text {
+  font-size: 13px;
+  color: #64748B;
+  margin-bottom: 16px;
+}
+
+.resume-progress-track {
+  width: 100%;
+  height: 8px;
+  background-color: #F1F5F9;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.resume-progress-bar {
+  height: 100%;
+  background-color: var(--primary-blue, #2563EB);
+  border-radius: 9999px;
+  transition: width 0.3s ease;
+}
+
+.resume-dropzone-cloud-icon {
+  color: var(--primary-blue, #2563EB);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume-dropzone-heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 8px;
+}
+
+.resume-dropzone-or {
+  font-size: 13.5px;
+  color: #94A3B8;
+  margin-bottom: 16px;
+}
+
+.resume-choose-file-btn {
+  padding: 10px 24px;
+  background-color: var(--primary-blue, #2563EB);
+  color: #FFFFFF;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+  margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.resume-choose-file-btn:hover {
+  background-color: var(--primary-blue-hover, #1D4ED8);
+}
+
+.resume-dropzone-formats {
+  font-size: 12px;
+  color: #94A3B8;
+  font-weight: 500;
+}
