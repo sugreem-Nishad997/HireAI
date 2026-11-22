@@ -8,7 +8,7 @@
     "dev": "nodemon src/server.js",
     "start": "node server.js",
     "worker": "node src/workers/matching.worker.js",
-    "seed:users": "node scripts/seed-users.js"
+    "start:free": "concurrently --kill-others --names API,WORKER \"node src/server.js\" \"node src/workers/matching.worker.js\""
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "bcrypt": "^6.0.0",
     "bullmq": "^6.5.1",
     "cloudinary": "^2.11.0",
+    "concurrently": "^10.0.7",
     "cors": "^2.8.6",
     "dotenv": "^18.0.9",
     "express": "^5.3.0",
