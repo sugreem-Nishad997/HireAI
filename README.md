@@ -94,11 +94,9 @@ REDIS_URL=redis://localhost:6379
 
 EMAIL_USER=your-email-address
 EMAIL_PASS=your-email-app-password
-EMAIL_HOST=
-EMAIL_PORT=
-EMAIL_SECURE=
-EMAIL_SERVICE=
-EMAIL_FROM=
+
+CLIENT_URL=your-local-frontend-url
+
 ```
 
 Optional frontend environment configuration:
