@@ -1,5 +1,7 @@
 # HireAI
 
+**Live:** https://hire-ai-lemon.vercel.app/
+
 HireAI is a full-stack recruitment platform that connects candidates and recruiters. It supports resume uploads and parsing, AI-assisted candidate-job matching, job applications, saved jobs, profile management, and recruiter workflows.
 
 ## Features
